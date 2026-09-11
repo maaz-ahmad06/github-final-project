@@ -1,5 +1,24 @@
-# Final Project - Git and GitHub
+# Simple Interest Calculator
 
-This repository contains the final project for the Introduction to Git and GitHub course. 
-It demonstrates the use of GitHub UI features and Git command line operations 
-including forking, branching, merging, and pull requests.
+This project contains a Bash script (`simple-interest.sh`) that calculates 
+simple interest based on user input.
+
+## Formula
+Simple Interest (SI) = (Principal × Rate × Time) / 100
+
+## Input Fields
+- **Principal**: The initial amount of money
+- **Rate**: The rate of interest (in percentage)
+- **Time**: The time period (in years)
+
+## Example
+If Principal = 1000, Rate = 5, and Time = 2:
+SI = (1000 × 5 × 2) / 100 = 100
+
+## Usage
+Run the script in a terminal:
+```bash
+bash simple-interest.sh
+```
+The script will prompt you to enter the principal, rate, and time, 
+and then display the calculated simple interest.
